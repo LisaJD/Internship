@@ -1,4 +1,0 @@
-order accepted as new
-order acked
-order set to pending
-order filled
