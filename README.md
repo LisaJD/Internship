@@ -1,5 +1,22 @@
 # Internship
 
+Copy constructor in Python:
+(purpose = to copy an argument and pass as an argument to a function, so you can get all the properties of that object)
+
+class Foo:
+    def __init__(self, orig=None):
+        if orig is None:
+            self.non_copy_constructor()
+        else:
+            self.copy_constructor(orig)
+    def non_copy_constructor(self):
+        # do the non-copy constructor stuff
+    def copy_constructor(self, orig):
+        # do the copy constructor
+
+a=Foo()  # this will call the non-copy constructor
+b=Foo(a) # this will call the copy constructor
+
 
 *Template Method
 Import code from existing classes, but with ability to
