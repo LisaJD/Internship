@@ -25,11 +25,5 @@ def main(plan, parser)
 if __name__ == '__main__':
     main()
     
-    
-    e='Name', description='Description', suites=BasicSuite(), environment=[ ])) # main function acts as entry point, holds instance of test framework being used (here MultiTest)    # can run multiple test suites (put in square brackets)
-
-if __name__ == '__main__':
-
-    main()
-
+ 
 
