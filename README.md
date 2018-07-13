@@ -1,5 +1,8 @@
 # Internship
 
+Resources on concurrency in testing:
+https://ieeexplore.ieee.org/document/5954385/
+
 https://mostafa-samir.github.io/Tic-Tac-Toe-AI/
 
 Copy constructor in Python:
