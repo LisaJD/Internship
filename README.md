@@ -3,6 +3,8 @@
 Resources on concurrency in testing:
 https://ieeexplore.ieee.org/document/5954385/
 
+https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml/
+
 https://mostafa-samir.github.io/Tic-Tac-Toe-AI/
 
 Copy constructor in Python:
