@@ -28,3 +28,16 @@ class State(object):
 if __name__ == '__main__':
     state = State(1, 'state.INIT')
     state.getNextStates()
+
+    ## def getAllPaths(state, depth):
+##     path_count = 0
+##     if depth == 6 or not i: #not i means terminal node - does this actually oerk
+##         return 1
+##     else: #
+##         for i in range(len(state.next_states)):  #can use mapping function
+##             next_state = state.next_states[i] #next_state needs to be an object?
+##            getAllPaths(next_state, depth - 1)
+##
+## if __name__ == '__main__':
+##     state = State(1, 'state.INIT')
+##     getAllPaths(state, 1)
