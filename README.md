@@ -7,6 +7,8 @@ https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-uml
 
 https://pdfs.semanticscholar.org/a158/b0ec69344d7e69513807d94d193e17b664bf.pdf
 
+The oracle problem: https://ieeexplore.ieee.org/document/6963470/
+
 https://mostafa-samir.github.io/Tic-Tac-Toe-AI/
 
 Copy constructor in Python:
