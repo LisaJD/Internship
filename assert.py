@@ -23,4 +23,16 @@ def check(expectation, observation):
     return 1
 
 
+  
+#add to simple function:
+action, expectation = world.get_action()
+
+#in get_action function:
+
+return "client cancels order", CLIENT, co.cancel(), expectation 
+#Note: the expectation can either be getting value from the dictionary of 
+#'expected dictoinaries for reports that Chihang printed for me', or
+#use debugger to look at the data inside co.cancel - does it give us the tag names which
+#we can extract?
+
 
