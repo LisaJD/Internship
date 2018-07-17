@@ -1,3 +1,5 @@
+http://pyfixmsg.readthedocs.io/en/latest/api.html#fixmessage
+
 observation = {'client': [{150: 0, 39:0}],
                 'exchange':[] } #dict inside dict
 expectation = {'client': [{150: 0}],
