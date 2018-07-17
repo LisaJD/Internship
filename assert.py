@@ -1,3 +1,34 @@
+
+def check(expectation, observation, result):
+  import ets
+  for key, value in expectation.iteritems():
+    exp = expectation.get(key)
+    obs = observation.get(key) #gets the value pairs for each key in for loop
+    print(len(obs), len(exp))
+    if len(obs) != len(exp):
+      result.fail("Oh no!") 
+      return 0 
+    else:
+      for i in range(len(obs)): #this loop will not run if len(obs) == 0
+        #unlike my code, this will work even if there is more than one message in client or exchange
+        exp_msg = exp[i]
+        obs_msg = obs[i]
+        print(exp_msg, obs_msg)
+        success = ets.testcases.multitest.result.dictmatch(result=result,
+                                                verbose=result.verbose,
+                                                reference=obs_msg,
+                                                description=None,
+                                                ignore=[],
+                                                only=exp_msg,
+                                                value=exp_msg) 
+        print(success)
+        if success == False:
+          return 0   
+    return 1
+  
+  
+
+
 http://pyfixmsg.readthedocs.io/en/latest/api.html#fixmessage
 
 observation = {'client': [{150: 0, 39:0}],
