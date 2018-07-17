@@ -1,4 +1,7 @@
 # Internship
+
+http://www.cs.huji.ac.il/~ai/projects/2013/UlitmateTic-Tac-Toe/
+
 https://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep
 Resources on concurrency in testing:
 https://ieeexplore.ieee.org/document/5954385/
