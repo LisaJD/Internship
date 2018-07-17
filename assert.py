@@ -35,4 +35,7 @@ return "client cancels order", CLIENT, co.cancel(), expectation
 #use debugger to look at the data inside co.cancel - does it give us the tag names which
 #we can extract?
 
+#need to find where the functions (client_order.)reject, amend, ack etc are defined
+#trying importing all from file, then simple.__dict__? or __path__
+
 
