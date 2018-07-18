@@ -48,4 +48,3 @@ class MonteCarlo(object):
         # Plays out a "random" game from the current position,
         # then updates the statistics tables with the result.
         pass
-
