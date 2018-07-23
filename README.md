@@ -1,5 +1,8 @@
 # Internship
 
+ART applied to non-numerical inputs
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7442567
+
 https://medium.com/@brianray_7981/tutorial-write-a-finite-state-machine-to-parse-a-custom-language-in-pure-python-1c11ade9bd43
 
 
