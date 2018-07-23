@@ -1,5 +1,8 @@
 # Internship
 
+https://medium.com/@brianray_7981/tutorial-write-a-finite-state-machine-to-parse-a-custom-language-in-pure-python-1c11ade9bd43
+
+
 http://mcts.ai/pubs/mcts-survey-master.pdf
 http://www.cs.huji.ac.il/~ai/projects/2013/UlitmateTic-Tac-Toe/
 
