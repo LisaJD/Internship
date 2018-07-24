@@ -1,0 +1,9 @@
+Research
+
+
+https://queue.acm.org/detail.cfm?id=2889274
+
+http://xunitpatterns.com/State%20Verification.html#Expected%20Object
+
+https://martinfowler.com/articles/mocksArentStubs.html
+
