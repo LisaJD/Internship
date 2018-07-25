@@ -1,6 +1,8 @@
 import random
 from engine import MainBoardCoords, SubBoardCoords, SubBoard
 from players.stdout import StdOutPlayer
+#import ms.version
+#ms.version.addpkg('numpy', '1.14.2')
 import numpy as np
 import pdb
 
