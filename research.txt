@@ -1,3 +1,13 @@
+Fuzzy stuff
+
+https://www.youtube.com/watch?v=r804UF8Ia4c
+
+https://www.wired.com/2016/06/googles-android-security-team-turns-machine-learning/
+
+
+https://www.owasp.org/index.php/Fuzzing
+
+
 Research
 
 
