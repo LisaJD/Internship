@@ -1,5 +1,9 @@
 
 
+
+https://graphviz.gitlab.io/_pages/pdf/dotguide.pdf
+https://graphviz.readthedocs.io/en/stable/manual.html#basic-usage
+
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6200159
 
 Fuzzy stuff
