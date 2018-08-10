@@ -1,5 +1,9 @@
-
-
+Profiling colours: https://graphviz.gitlab.io/_pages/Gallery/directed/profile.html
+Large graph: https://graphviz.gitlab.io/_pages/Gallery/undirected/root.html
+Colour schemes: https://graphviz.gitlab.io/_pages/doc/info/colors.html (use spectral 11?)
+For labels: label or decorate?
+For terminal nodes: shape='double circle'
+Concentrate: merges multiedges into a single edge
 
 https://graphviz.gitlab.io/_pages/pdf/dotguide.pdf
 https://graphviz.readthedocs.io/en/stable/manual.html#basic-usage
