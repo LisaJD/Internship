@@ -1,0 +1,7 @@
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("-seed", help="specify a seed value for the worlds", type=datetime.time)
+args = parser.parse_args()
+if args.seed:
+    seed_val = args.seed
+    print(seed_val)
