@@ -1,0 +1,7 @@
+
+Colouring JS graph:
+https://github.com/d3/d3-scale-chromatic/blob/master/README.md#schemeCategory10
+
+Labels to edges:
+https://stackoverflow.com/questions/19344504/how-to-add-label-to-edges-in-d3-graph
+(but much easier to just add to nodes)
