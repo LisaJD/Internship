@@ -1,0 +1,69 @@
+def fib(n):
+    a=1
+    b=1
+    if n == 1 or n==2:
+        return 1
+    else:
+        for n in range(2, n):
+            c = a + b
+            a = b
+            b = c          
+    return b
+
+
+def missingnum(anarray):
+    for x in range(1, 10):
+        if x in anarray:
+            continue
+        else:
+            return x
+
+myarray = [1,2,3,5,6,7,8,9,10]
+
+myarray = [x for x in range(1,101)]
+
+myarray.pop(34)
+
+def checkdupe(anarray):
+    for x in range(len(anarray)):
+        count = 0
+        for element in anarray:
+            if x == element:
+                count+=1
+            if count >= 2:
+                return x
+
+myarray = [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10]
+
+#Python Linked Lists
+
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+    def traverse(self):
+        node = self
+        while node != None:
+            print(node.val)
+            node = node.next
+
+def findmid(node):
+    length = 0
+    mid = 0
+    while node != None:
+        node = node.next
+        length += 1
+        if length % 2 == 0:
+            mid = node
+    return mid
+
+
+node1 = Node(12) 
+node2 = Node(99) 
+node3 = Node(37) 
+node4 = Node(40)
+node1.next = node2 
+node2.next = node3 
+node3.next = node4
+# the entire linked list now looks like: 12->99->37
