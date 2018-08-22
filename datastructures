@@ -67,3 +67,83 @@ node1.next = node2
 node2.next = node3 
 node3.next = node4
 # the entire linked list now looks like: 12->99->37
+
+import hashlib
+
+def palindrome(astring):
+    hash = hashlib.md5(astring) #may need to convert to bytes
+    reversestring = astring[::-1]
+    hash2 = hashlib.md5(reversestring)
+    if hash.hexdigest() == hash2.hexdigest():
+        return True
+    else:
+        return False
+
+#sort string alphabetically
+# li = []
+# x = len(k)
+# for i in range (0,x):
+#     li.append(k[i])
+
+# print("List is : ",li)
+
+
+# for i in range(0,x):
+#     for j in range(0,x):
+#         if li[i]<li[j]:
+#             temp = li[i]
+#             li[i]=li[j]
+#             li[j]=temp
+# j=""
+
+# for i in range(0,x):
+#     j = j+li[i]
+
+# print("After sorting String is : ",j)
+
+class Node:
+    def __init__(self, data):
+        self.left = None
+        self.right = None
+        self.data = data
+
+    def insert(self, data):
+        if self.data:
+            if data < self.data:
+                if self.left is None:
+                    self.left = Node(data)
+                else:
+                    self.left.insert(data)
+            elif data > self.data:
+                if self.right is None:
+                    self.right = Node(data)
+                else:
+                    self.right.insert(data)
+        else:
+            self.data = data
+
+        # if data < self.data:
+        #     if self.left == None:
+        #         self.left = data
+        #     else:
+        #         self.left = Node(self.left)
+        # else:
+        #     if self.right == None:
+        #         self.right = data
+        #     else:
+        #         self.right = Node(self.right)
+
+    def print_tree(self):
+        if self.left != None:
+            self.left.print_tree()
+        print(self.data),
+        if self.right != None:
+            self.right.print_tree()
+
+root = Node(12)
+root.insert(6)
+root.insert(14)
+root.insert(3)
+
+root.print_tree()
+
